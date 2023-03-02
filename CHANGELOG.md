@@ -1,5 +1,11 @@
 # demo-1
 
+## 1.0.2
+
+### Patch Changes
+
+- c18addb: Added npm publishing and updated project configuration
+
 ## 1.0.1
 
 ### Patch Changes
