@@ -1,5 +1,11 @@
 # demo-1
 
+## 1.0.3
+
+### Patch Changes
+
+- f24d82f: Fix publishing release packages
+
 ## 1.0.2
 
 ### Patch Changes
