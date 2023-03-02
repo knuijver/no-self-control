@@ -1,17 +1,20 @@
 {
-  "name": "demo-1",
+  "name": "@knuijver/no-self-control",
   "version": "1.0.1",
-  "description": "",
+  "description": "My personal goto sandbox library",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "tsx src/index.ts",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "r.knuijver a.k.a Prime",
+  "license": "SEE LICENSE IN LICENSE",
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
     "@types/node": "^18.14.2",
