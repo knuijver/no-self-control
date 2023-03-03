@@ -1,5 +1,11 @@
 # demo-1
 
+## 1.2.0
+
+### Minor Changes
+
+- 8e994f1: Next step in building a library, support tree-shacking and other things
+
 ## 1.1.0
 
 ### Minor Changes
