@@ -1,5 +1,11 @@
 # demo-1
 
+## 1.1.0
+
+### Minor Changes
+
+- f8bfe1b: Added some of my actual helper function
+
 ## 1.0.3
 
 ### Patch Changes

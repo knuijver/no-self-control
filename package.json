@@ -1,6 +1,6 @@
 {
   "name": "@knuijver/no-self-control",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "My personal goto sandbox library",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
