@@ -17,7 +17,7 @@
   "scripts": {
     "dev": "tsx src/index.ts",
     "build-old": "tsup src/index.ts --format cjs,esm --dts",
-    "ts-types": "tsc",
+    "lint": "tsc",
     "build:dev": "rimraf lib && tsup --watch",
     "build:prod": "rimraf dist && env NODE_ENV=production tsup",
     "build:watch": "tsup --watch"
