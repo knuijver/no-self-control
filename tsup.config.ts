@@ -13,6 +13,6 @@ export const tsup: Options = {
   entryPoints: ['src/index.ts'],
   watch: env === 'development',
   target: 'es2020',
-  outDir: env === 'production' ? 'dist' : 'lib',
+  outDir: 'lib',
   entry: ['src/**/*.ts'], //include all files under src
 };

@@ -1,8 +1,8 @@
-export * from './common/utils';
-export * from './common/strings';
-export * from './common/dates';
-export * from './common/html';
-export * from './common/clipboard';
+// export * from './common/utils';
+// export * from './common/strings';
+// export * from './common/dates';
+// export * from './common/html';
+// export * from './common/clipboard';
 
 export const defaultBody = `
 <div id="root">
@@ -35,6 +35,10 @@ export const defaultBody = `
 class ReactRoot extends HTMLElement {
 	constructor() {		
 		super();
+	}
+
+	connectedCallback() {	
+		this.outerHTML = defaultBody;
 	}
 }
 window.customElements.define('px-root', ReactRoot);
