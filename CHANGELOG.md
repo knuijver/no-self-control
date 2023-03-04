@@ -1,5 +1,11 @@
 # demo-1
 
+## 1.2.1
+
+### Patch Changes
+
+- 16eb82d: fixed libray exported types
+
 ## 1.2.0
 
 ### Minor Changes
