@@ -9,3 +9,7 @@ export const toCamel = (s: string) => {
             .replace('_', '');
     });
 };
+
+export function toKebab(camelCase: string = "") {
+    return camelCase.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase()
+}
