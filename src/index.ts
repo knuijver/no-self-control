@@ -41,4 +41,6 @@ class ReactRoot extends HTMLElement {
 		this.outerHTML = defaultBody;
 	}
 }
-window.customElements.define('px-root', ReactRoot);
+if(!window.customElements.get('px-root')){
+	window.customElements.define('px-root', ReactRoot);
+}
