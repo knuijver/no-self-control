@@ -16,8 +16,7 @@ export const camelToSnakeCase = (str: string) =>
 export const camelToKebabCase = (str: string) =>
   str.replace(/[A-Z]/g, (letter) => `-${letter.toLowerCase()}`);
 
-  
-function* chars(str: string) {
+export function* chars(str: string) {
   for (let i = 0; i < str.length; i++) {
     yield str[i];
   }
@@ -25,7 +24,7 @@ function* chars(str: string) {
 
 export function getFirstWord(str: string, separator: string = " ") {
   let firstWord = "";
-  for (let char of chars(str)) {
+  for (let char of str) {
     if (char === separator) {
       break;
     }
@@ -33,3 +32,6 @@ export function getFirstWord(str: string, separator: string = " ") {
   }
   return firstWord;
 }
+
+export const firstWord = (str: string) =>
+  str.indexOf(" ") === -1 ? str : str.substring(0, str.indexOf(" "));
